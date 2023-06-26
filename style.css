@@ -6,6 +6,9 @@
     --cor-marca: #FA7D09;
     --cor-fundo: #2F2519;
     --cor-texto2:#C0C0C0;
+
+    --fonte-titulo: 'Bebas Neue', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
 }
 
 body {
@@ -14,34 +17,77 @@ body {
 }
 
 * {
-    margin: 0;
-    padding: 2%;
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--fonte-texto);
 }
+
 
 
 .principal {
     background-image: url("imagens/filmes.png");
-    
+    background-repeat: no-repeat; 
+    background-size: contain;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
 }
 
 .principal__assinatura {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    
+    padding: 8% 3%;
+    width: 35%; 
 }
 
-.principal__assinatura__combo {
-    /* margin: 20px;
-    padding: 50px; */
+.principal__assinatura__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principal__assinatura__titulo {
+    font-size: 1.75rem;
+}
+
+.principal__assinatura__imagem {
+    padding: 8%;
 }
 
 .principal__assinatura__link {
     border: 2px solid var(--cor-marca);
-    border-radius: 8px;    
+    padding: 2%;
+    border-radius: 8px; 
+    text-decoration: none;
+    color: var(--cor-texto);
 }
 
-.principal__assinatura__titulo {
+.principal__assinatura__link:hover {
+    background-color: var(--cor-marca);
+}
 
+.principal__assinatura__aviso {
+    color: var(--cor-texto2);
+    font-size: 0.7rem;
+}
+
+.secundario {
+    display:flex;
+    align-items: center;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+}
+
+.secundario__imagem {
+    padding: 10% 0% 10% 15%;
+}
+
+.secundario__conteudo {
+    padding: 10% 10% 10% 0; 
+}
+
+.secundario__conteudo__titulo {
+    font-size: 3rem;
+}
+
+.secundario__conteudo__texto {
+    font-size: 1rem;
 }
