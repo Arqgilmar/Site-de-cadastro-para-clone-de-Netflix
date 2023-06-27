@@ -43,6 +43,7 @@ body {
 }
 
 .principal__assinatura__titulo {
+    font-family: var(--fonte-titulo);
     font-size: 1.75rem;
 }
 
@@ -82,6 +83,7 @@ body {
 }
 
 .secundario__conteudo__titulo {
+    font-family: var(--fonte-titulo);
     font-size: 3rem;
     color: var(--cor-texto);
 }
@@ -103,6 +105,7 @@ body {
 }
 
 .terceiro__conteudo__titulo {
+    font-family: var(--fonte-titulo);
     font-size: 3rem;
     color: var(--cor-texto);
 }
@@ -117,3 +120,104 @@ body {
     padding: 10% 10% 10% 0%;
 }
 
+.quarto {
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto2);
+    font-size: 1rem;
+}
+
+.quarto__img {
+    padding: 10% 0% 10% 10%;
+}
+
+.quarto__conteudo {
+    padding: 10% 20% 10% 2%;
+}
+
+.quarto__link {
+    text-decoration: none;
+    color: var(--cor-texto);
+    border: 2px solid #FA7D09;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.quarto__link:hover {
+    background-color: #FA7D09;
+}
+
+.quinto {
+    margin: 10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10% 0%;
+}
+
+.quinto__titulo {
+    font-size: 3rem;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-texto);
+}
+
+.quinto__conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.quinto__conteudo__subdivisao {
+    display: flex;
+    flex-direction: column; 
+}
+
+.quinto__conteudo__subdivisao__texto {
+    font-size: 2.375rem;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+}
+
+.rodape {
+    
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-texto);
+    font-size: 3rem;
+}
+
+.rodape__lista {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.lista__link {
+    font-size: 1rem;
+    font-family: var(--fonte-texto);
+    display: flex;
+}
+
+.lista__link__texto {
+    text-decoration:none;
+    color: var(--cor-texto);
+    padding: 16px;
+}
+
+.rodape__texto {
+    font-size: 0.75rem;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+    padding: 1% 0 0% 0;
+}
+
+.rodape__texto2 {
+    font-size: 0.75rem;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+    padding: 1% 0 5% 0;
+}
+
+.lista__link__texto:hover {
+    color: blue;
+}
